@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+.menu__background {
+    position: absolute;
+    height: 80px;
+    width: 50%;
+    background-color: #00008b;
+    z-index: -1;
+}
+
+.menu__background--left {
+    transform: scale(2) rotate(-5deg);
+}
+
+.menu__background--right {
+    right: 0;
+    transform: scale(2) rotate(5deg);
+}
+
+.main__menu--left {
+    position: absolute;
+}
+
+.main__menu--right {
+    position: absolute;
+    right: 0;
+}
+
+.nav__list {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 50px;
+}
+
+.list__link {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.main__header {
+    position: absolute;
+    font-size: 3em;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%);
+}
